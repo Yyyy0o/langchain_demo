@@ -1,0 +1,62 @@
+# Jupyter 核心文件
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# JupyterLab 临时文件
+.jupyter/
+.jupyter/lab/workspaces/
+
+# 环境变量和敏感数据
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# Python 缓存和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志和数据库
+*.log
+*.sqlite3
+*.db
+
+# 测试和覆盖率报告
+.coverage
+htmlcov/
+.pytest_cache/
